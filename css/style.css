@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    height: 100px;
+    background-color: #daa520;
+}
+
+/* /header */
+
+
+/* main */
+
+.container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+}
+
+#item-1 {
+    background-color: #800080;
+    height: 600px;
+}
+
+#item-2 {
+    background-color: #ee82ee;
+    height: 450px;
+}
+
+/* /main */
+
+/* footer */
+footer {
+    height: 120px;
+    background-color: #add8e6;
+}
+
+
+/* /footer */
